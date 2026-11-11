@@ -24,11 +24,13 @@ padding:0;
   font-size:20px;
 }
 .menu-principal{
+
 text-align:right;
 }
 .menu-principal li{
 display:inline;
 margin:10px;
+
 }
 .menu-principal li a{
 color:#311211;
@@ -45,6 +47,7 @@ width:48px;
 height:48px;
 text-align:left;
 }
+
 .botones{
  background-color:#F23358
 }
@@ -92,4 +95,50 @@ text-align:left;
     border-radius:20px;
     text-align:center;
     margin-top:30px;
+}
+.producto{
+
+text-align:center;
+
+}
+.seccion-sobre-nosotros{
+    margin-top:20px;
+    background-color:#FCE6E6;
+    padding:50px 0 50px 0;
+    text-align:center;
+}
+.seccion-sobre-nosotros h1{
+    color:#4B2822;
+    font-size:40px;
+}
+.seccion-sobre-nosotros p{
+    color:#4B2822;
+    width:35%;
+    margin:auto;
+    font-size:20px;
+    margin-top:20px;
+    line-height:30px;
+}
+.pie-pagina{
+    display: flex;
+    gap:10px;
+    justify-content:space-between;
+    background-color:#4B2822;
+    color:#f8f3f4;
+    padding:30px;
+    
+}
+footer{
+
+}
+
+.contenedor-pie-pagina{
+    text-align:left;
+    line-height:30px;
+    font-weight: bold;;
+   
+}
+.footer-iconos svg{
+    padding:10px;
+    
 }
